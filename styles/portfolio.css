@@ -227,7 +227,7 @@ textarea {
     #what-i-do-description{
         padding: 20px;
     }
-    footer{
+    footer,.banner{
         padding: 10px;
     }
     .footer-column{
@@ -242,6 +242,15 @@ textarea {
     }
     .about-info-container{
         flex-direction: column;
+    }
+    .header{
+        background-image: none;
+    }
+    .banner,nav{
+        flex-direction: column;
+    }
+    .banner .profile-pic{
+        width: 100%;
     }
 }
 
